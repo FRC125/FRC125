@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "FRC125",
-    "repositoryName": "FRC125.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Roon"
-  }
-}
+{"meta":{"username":"FRC125","repositoryName":"FRC125.github.io","branch":"master"},"site":{"url":"http://FRC125.github.io"},"socialnetwork":{},"theme":{"name":"Casper","url":"http://FRC125.github.io/themes/Casper"}}
