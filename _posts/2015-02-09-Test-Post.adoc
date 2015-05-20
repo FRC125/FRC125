@@ -1,6 +1,8 @@
 # Test Post
 :hp-tags: test
 
+This example demonstrates the construction of a polar plot of a parametric function, sin(2t)cos(2t). A d3.svg.line.radial is used to draw the red line. Note the definition of the line’s angle: D3’s radial lines and areas proceed clockwise starting at 12 o’clock, while this plot proceeds counterclockwise starting at 3 o’clock!
+
 ++++
 
 <style>
