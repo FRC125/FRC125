@@ -33,6 +33,7 @@
 }
 
 </style>
+<div id="body"></div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script>
 
@@ -52,7 +53,7 @@ var line = d3.svg.line.radial()
     .radius(function(d) { return r(d[1]); })
     .angle(function(d) { return -d[0] + Math.PI / 2; });
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#body").append("svg")
     .attr("width", width)
     .attr("height", height)
   .append("g")
